@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C51AE43B1D30441B004365F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C51AE43A1D30441B004365F2 /* main.m */; };
+		C51AE43E1D30441B004365F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C51AE43D1D30441B004365F2 /* AppDelegate.m */; };
+		C51AE4411D30441B004365F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C51AE4401D30441B004365F2 /* ViewController.m */; };
+		C51AE4441D30441B004365F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C51AE4421D30441B004365F2 /* Main.storyboard */; };
+		C51AE4461D30441B004365F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C51AE4451D30441B004365F2 /* Assets.xcassets */; };
+		C51AE4491D30441B004365F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C51AE4471D30441B004365F2 /* LaunchScreen.storyboard */; };
+		C51AE4541D30441C004365F2 /* NutronixTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C51AE4531D30441C004365F2 /* NutronixTests.m */; };
+		C51AE45F1D30441C004365F2 /* NutronixUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C51AE45E1D30441C004365F2 /* NutronixUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C51AE4501D30441C004365F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C51AE42E1D30441A004365F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C51AE4351D30441A004365F2;
+			remoteInfo = Nutronix;
+		};
+		C51AE45B1D30441C004365F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C51AE42E1D30441A004365F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C51AE4351D30441A004365F2;
+			remoteInfo = Nutronix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C51AE4361D30441B004365F2 /* Nutronix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nutronix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C51AE43A1D30441B004365F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C51AE43C1D30441B004365F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C51AE43D1D30441B004365F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C51AE43F1D30441B004365F2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C51AE4401D30441B004365F2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C51AE4431D30441B004365F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C51AE4451D30441B004365F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C51AE4481D30441B004365F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C51AE44A1D30441B004365F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C51AE44F1D30441C004365F2 /* NutronixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NutronixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C51AE4531D30441C004365F2 /* NutronixTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NutronixTests.m; sourceTree = "<group>"; };
+		C51AE4551D30441C004365F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C51AE45A1D30441C004365F2 /* NutronixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NutronixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C51AE45E1D30441C004365F2 /* NutronixUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NutronixUITests.m; sourceTree = "<group>"; };
+		C51AE4601D30441C004365F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C51AE4331D30441A004365F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C51AE44C1D30441C004365F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C51AE4571D30441C004365F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C51AE42D1D30441A004365F2 = {
+			isa = PBXGroup;
+			children = (
+				C51AE4381D30441B004365F2 /* Nutronix */,
+				C51AE4521D30441C004365F2 /* NutronixTests */,
+				C51AE45D1D30441C004365F2 /* NutronixUITests */,
+				C51AE4371D30441B004365F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C51AE4371D30441B004365F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C51AE4361D30441B004365F2 /* Nutronix.app */,
+				C51AE44F1D30441C004365F2 /* NutronixTests.xctest */,
+				C51AE45A1D30441C004365F2 /* NutronixUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C51AE4381D30441B004365F2 /* Nutronix */ = {
+			isa = PBXGroup;
+			children = (
+				C51AE43C1D30441B004365F2 /* AppDelegate.h */,
+				C51AE43D1D30441B004365F2 /* AppDelegate.m */,
+				C51AE43F1D30441B004365F2 /* ViewController.h */,
+				C51AE4401D30441B004365F2 /* ViewController.m */,
+				C51AE4421D30441B004365F2 /* Main.storyboard */,
+				C51AE4451D30441B004365F2 /* Assets.xcassets */,
+				C51AE4471D30441B004365F2 /* LaunchScreen.storyboard */,
+				C51AE44A1D30441B004365F2 /* Info.plist */,
+				C51AE4391D30441B004365F2 /* Supporting Files */,
+			);
+			path = Nutronix;
+			sourceTree = "<group>";
+		};
+		C51AE4391D30441B004365F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C51AE43A1D30441B004365F2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C51AE4521D30441C004365F2 /* NutronixTests */ = {
+			isa = PBXGroup;
+			children = (
+				C51AE4531D30441C004365F2 /* NutronixTests.m */,
+				C51AE4551D30441C004365F2 /* Info.plist */,
+			);
+			path = NutronixTests;
+			sourceTree = "<group>";
+		};
+		C51AE45D1D30441C004365F2 /* NutronixUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C51AE45E1D30441C004365F2 /* NutronixUITests.m */,
+				C51AE4601D30441C004365F2 /* Info.plist */,
+			);
+			path = NutronixUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C51AE4351D30441A004365F2 /* Nutronix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C51AE4631D30441C004365F2 /* Build configuration list for PBXNativeTarget "Nutronix" */;
+			buildPhases = (
+				C51AE4321D30441A004365F2 /* Sources */,
+				C51AE4331D30441A004365F2 /* Frameworks */,
+				C51AE4341D30441A004365F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nutronix;
+			productName = Nutronix;
+			productReference = C51AE4361D30441B004365F2 /* Nutronix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C51AE44E1D30441C004365F2 /* NutronixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C51AE4661D30441C004365F2 /* Build configuration list for PBXNativeTarget "NutronixTests" */;
+			buildPhases = (
+				C51AE44B1D30441C004365F2 /* Sources */,
+				C51AE44C1D30441C004365F2 /* Frameworks */,
+				C51AE44D1D30441C004365F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C51AE4511D30441C004365F2 /* PBXTargetDependency */,
+			);
+			name = NutronixTests;
+			productName = NutronixTests;
+			productReference = C51AE44F1D30441C004365F2 /* NutronixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C51AE4591D30441C004365F2 /* NutronixUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C51AE4691D30441C004365F2 /* Build configuration list for PBXNativeTarget "NutronixUITests" */;
+			buildPhases = (
+				C51AE4561D30441C004365F2 /* Sources */,
+				C51AE4571D30441C004365F2 /* Frameworks */,
+				C51AE4581D30441C004365F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C51AE45C1D30441C004365F2 /* PBXTargetDependency */,
+			);
+			name = NutronixUITests;
+			productName = NutronixUITests;
+			productReference = C51AE45A1D30441C004365F2 /* NutronixUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C51AE42E1D30441A004365F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = LJWProductions;
+				TargetAttributes = {
+					C51AE4351D30441A004365F2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C51AE44E1D30441C004365F2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C51AE4351D30441A004365F2;
+					};
+					C51AE4591D30441C004365F2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C51AE4351D30441A004365F2;
+					};
+				};
+			};
+			buildConfigurationList = C51AE4311D30441A004365F2 /* Build configuration list for PBXProject "Nutronix" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C51AE42D1D30441A004365F2;
+			productRefGroup = C51AE4371D30441B004365F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C51AE4351D30441A004365F2 /* Nutronix */,
+				C51AE44E1D30441C004365F2 /* NutronixTests */,
+				C51AE4591D30441C004365F2 /* NutronixUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C51AE4341D30441A004365F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C51AE4491D30441B004365F2 /* LaunchScreen.storyboard in Resources */,
+				C51AE4461D30441B004365F2 /* Assets.xcassets in Resources */,
+				C51AE4441D30441B004365F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C51AE44D1D30441C004365F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C51AE4581D30441C004365F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C51AE4321D30441A004365F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C51AE4411D30441B004365F2 /* ViewController.m in Sources */,
+				C51AE43E1D30441B004365F2 /* AppDelegate.m in Sources */,
+				C51AE43B1D30441B004365F2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C51AE44B1D30441C004365F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C51AE4541D30441C004365F2 /* NutronixTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C51AE4561D30441C004365F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C51AE45F1D30441C004365F2 /* NutronixUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C51AE4511D30441C004365F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C51AE4351D30441A004365F2 /* Nutronix */;
+			targetProxy = C51AE4501D30441C004365F2 /* PBXContainerItemProxy */;
+		};
+		C51AE45C1D30441C004365F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C51AE4351D30441A004365F2 /* Nutronix */;
+			targetProxy = C51AE45B1D30441C004365F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C51AE4421D30441B004365F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C51AE4431D30441B004365F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C51AE4471D30441B004365F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C51AE4481D30441B004365F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C51AE4611D30441C004365F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C51AE4621D30441C004365F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C51AE4641D30441C004365F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Nutronix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LJW.Nutronix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C51AE4651D30441C004365F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Nutronix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LJW.Nutronix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C51AE4671D30441C004365F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NutronixTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LJW.NutronixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nutronix.app/Nutronix";
+			};
+			name = Debug;
+		};
+		C51AE4681D30441C004365F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NutronixTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LJW.NutronixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nutronix.app/Nutronix";
+			};
+			name = Release;
+		};
+		C51AE46A1D30441C004365F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NutronixUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LJW.NutronixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Nutronix;
+			};
+			name = Debug;
+		};
+		C51AE46B1D30441C004365F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NutronixUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LJW.NutronixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Nutronix;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C51AE4311D30441A004365F2 /* Build configuration list for PBXProject "Nutronix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C51AE4611D30441C004365F2 /* Debug */,
+				C51AE4621D30441C004365F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C51AE4631D30441C004365F2 /* Build configuration list for PBXNativeTarget "Nutronix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C51AE4641D30441C004365F2 /* Debug */,
+				C51AE4651D30441C004365F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C51AE4661D30441C004365F2 /* Build configuration list for PBXNativeTarget "NutronixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C51AE4671D30441C004365F2 /* Debug */,
+				C51AE4681D30441C004365F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C51AE4691D30441C004365F2 /* Build configuration list for PBXNativeTarget "NutronixUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C51AE46A1D30441C004365F2 /* Debug */,
+				C51AE46B1D30441C004365F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C51AE42E1D30441A004365F2 /* Project object */;
+}
