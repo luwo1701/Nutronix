@@ -15,6 +15,8 @@
 		C51AE4491D30441B004365F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C51AE4471D30441B004365F2 /* LaunchScreen.storyboard */; };
 		C51AE4541D30441C004365F2 /* NutronixTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C51AE4531D30441C004365F2 /* NutronixTests.m */; };
 		C51AE45F1D30441C004365F2 /* NutronixUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C51AE45E1D30441C004365F2 /* NutronixUITests.m */; };
+		C5D739A41D358D080099C7E3 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D739A31D358D080099C7E3 /* LoginController.m */; };
+		C5D739A71D358D300099C7E3 /* RegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D739A61D358D300099C7E3 /* RegisterController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		C51AE45A1D30441C004365F2 /* NutronixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NutronixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C51AE45E1D30441C004365F2 /* NutronixUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NutronixUITests.m; sourceTree = "<group>"; };
 		C51AE4601D30441C004365F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5D739A21D358D080099C7E3 /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
+		C5D739A31D358D080099C7E3 /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
+		C5D739A51D358D300099C7E3 /* RegisterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterController.h; sourceTree = "<group>"; };
+		C5D739A61D358D300099C7E3 /* RegisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				C51AE43D1D30441B004365F2 /* AppDelegate.m */,
 				C51AE43F1D30441B004365F2 /* ViewController.h */,
 				C51AE4401D30441B004365F2 /* ViewController.m */,
+				C5D739A21D358D080099C7E3 /* LoginController.h */,
+				C5D739A31D358D080099C7E3 /* LoginController.m */,
+				C5D739A51D358D300099C7E3 /* RegisterController.h */,
+				C5D739A61D358D300099C7E3 /* RegisterController.m */,
 				C51AE4421D30441B004365F2 /* Main.storyboard */,
 				C51AE4451D30441B004365F2 /* Assets.xcassets */,
 				C51AE4471D30441B004365F2 /* LaunchScreen.storyboard */,
@@ -272,8 +282,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C51AE4411D30441B004365F2 /* ViewController.m in Sources */,
+				C5D739A41D358D080099C7E3 /* LoginController.m in Sources */,
 				C51AE43E1D30441B004365F2 /* AppDelegate.m in Sources */,
 				C51AE43B1D30441B004365F2 /* main.m in Sources */,
+				C5D739A71D358D300099C7E3 /* RegisterController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
