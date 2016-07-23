@@ -2,18 +2,32 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Images</key>
+	<array>
+		<string>Chicken</string>
+		<string>Beef</string>
+	</array>
 	<key>Chicken</key>
 	<dict>
 		<key>Calories</key>
-		<string>100</string>
+		<integer>100</integer>
 		<key>Fat</key>
-		<string>2</string>
+		<integer>2</integer>
 		<key>Protein</key>
-		<string>20</string>
+		<integer>20</integer>
 		<key>Carbs</key>
-		<string>0</string>
+		<integer>0</integer>
 	</dict>
-	<key>Broccoli</key>
-	<string></string>
+	<key>Beef</key>
+	<dict>
+		<key>Calories</key>
+		<integer>600</integer>
+		<key>Fat</key>
+		<integer>100</integer>
+		<key>Protein</key>
+		<integer>10</integer>
+		<key>Carbs</key>
+		<integer>0</integer>
+	</dict>
 </dict>
 </plist>

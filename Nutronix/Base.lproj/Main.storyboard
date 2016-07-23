@@ -62,7 +62,6 @@
         <!--Swipe View Controller-->
         <scene sceneID="7NW-cV-Q9o">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7M3-a9-E3i" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="RIB-fL-GjQ" customClass="SwipeViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="C89-3w-6Lu"/>
@@ -101,6 +100,7 @@
                         <outlet property="image" destination="fLr-mv-V0D" id="v4L-Vg-yzu"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7M3-a9-E3i" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="cuZ-cv-xM4">
                     <connections>
                         <action selector="leftSwipe:" destination="RIB-fL-GjQ" id="L93-Ks-IQB"/>
